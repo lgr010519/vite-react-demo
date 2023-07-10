@@ -1,0 +1,33 @@
+.page {
+
+  .login_container {
+    box-sizing: border-box;
+    width: 510px;
+    background-color: #fff;
+    margin: 90px auto;
+    padding: 50px;
+
+    .title {
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .tip {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      .link {
+        color: #1890ff;
+        cursor: pointer;
+      }
+    }
+
+    .check_code {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
